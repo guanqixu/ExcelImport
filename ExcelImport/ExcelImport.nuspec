@@ -9,7 +9,12 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <description>$description$</description>
-    <releaseNotes>First package</releaseNotes>
+    <projectUrl>https://github.com/guanqixu/ExcelImport</projectUrl>
+    <releaseNotes>Excel 数据导入，自用为主
+	需要继承 ExcelData 以及定义 有 ExcelHeader 特性的属性
+	
+	1.0.2 调整批注的大小
+	</releaseNotes>
     <copyright>Copyright 2019</copyright>
     <tags>Excel</tags>
   </metadata>

@@ -188,7 +188,7 @@ namespace ExcelImport
             {
                 if (!string.IsNullOrWhiteSpace(comments[i]))
                 {
-                    row.GetCell(i).CellComment = GetCellComment(sheet, 0, 0, comments[i], "someone");
+                    row.GetCell(i).CellComment = GetCellComment(sheet, 5, 8, comments[i], "someone");
                 }
             }
         }
