@@ -7,7 +7,12 @@ namespace ExcelImportDemo
         static void Main(string[] args)
         {
             var helper = new ExcelImportHelper<TestData>();
-            helper.Import("c:\\test.xls");
+
+            //导出模板
+            helper.ExportTemplate("c:\\test.xls");
+
+            //导入数据
+            var datas = helper.Import("c:\\test.xls");
         }
     }
 

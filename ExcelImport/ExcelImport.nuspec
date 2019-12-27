@@ -9,7 +9,8 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <description>$description$</description>
-    <projectUrl>https://github.com/guanqixu/ExcelImport</projectUrl>
+    <repository type="git" url="https://github.com/guanqixu/ExcelImport.git" branch="master" commit="4c593cb8fa21952a7c83d57dab1e2617368c409c" />
+    <icon>https://github.com/guanqixu/Images/raw/master/X.jpg</icon>
     <releaseNotes>Excel 数据导入，自用为主
 	需要继承 ExcelData 以及定义 有 ExcelHeader 特性的属性
 	
